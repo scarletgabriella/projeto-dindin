@@ -3,7 +3,7 @@
   
 ## 💻 Sobre o projeto
 
-CRUD Cursos e aulas.
+CRUD de Cursos e aulas.
 	
 Dindin.Dominio = Regra de Negócio / Repositório
 
@@ -110,34 +110,20 @@ Endpoint para cadastrar um novo Curso
   "titulo": "Curso",
   "capa": "https/www.sou-img.com",
   "nomeProfessor": "Nome do Professor",
-  "descricao": "Alguma descrição"
-}
-```
-
-Códigos Http de Retorno Possíveis:
-
-- 201 - CREATED
-- 400 - BAD REQUEST ()
-
-### 5. POST /api/Curso/AulaDoCurso?titulo=Titulo-Curso
-
-Endpoint para cadastrar aulas de um curso
-
-#### Exemplo Body:
-
-```
-[
-   {
+  "descricao": "Alguma descrição",
+  "Aulas": [
+    {
     "titulo": "Aula Um",
     "link": "https/www.sou-um-link.com-01",
 	  "descricao": "descricao"
   },
-{
+  {
     "titulo": "Aula Dois",
     "link": "https/www.sou-um-link.com-02",
     "descricao": "descricao"
   }
-]
+    ]
+}
 ```
 
 Códigos Http de Retorno Possíveis:
@@ -198,12 +184,6 @@ Códigos Http de Retorno Possíveis:
 ### 9. DELETE /api/Curso/AulaDoCurso?id=Value&tituloAula=Primeira-Aula
 
 Endpoint para excluir uma aula
-
-⚠️ 
-  
-ATENÇÃO: A cada espaço do titulo da Aula, deve ser substituido por (-).
-  
-Primeira Aula = Primeira-Aula
 
 Códigos Http de Retorno Possíveis:
 
