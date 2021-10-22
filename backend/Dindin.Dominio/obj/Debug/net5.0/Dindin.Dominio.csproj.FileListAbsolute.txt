@@ -1,0 +1,12 @@
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\bin\Debug\net5.0\Dindin.Dominio.deps.json
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\bin\Debug\net5.0\Dindin.Dominio.dll
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\bin\Debug\net5.0\ref\Dindin.Dominio.dll
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\bin\Debug\net5.0\Dindin.Dominio.pdb
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.csproj.AssemblyReference.cache
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.AssemblyInfoInputs.cache
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.AssemblyInfo.cs
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.dll
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\ref\Dindin.Dominio.dll
+C:\Users\scarl\OneDrive\Documentos\GitHub\Dindin\backend\Dindin.Dominio\obj\Debug\net5.0\Dindin.Dominio.pdb
