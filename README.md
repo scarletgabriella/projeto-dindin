@@ -8,10 +8,8 @@ Dindin = Regra de Negócio / Repositório
 Dindin.Web = Api REST
 
 ## ▶️ Executando o projeto
-
-dindin/backend/Dindin
-  
-Solução: Dindin.sln	
+ 
+Solução: backend.sln	
 	
 backend/Dindin.Dominio/DAO/ConexaoMysql.cs.cs
 	
