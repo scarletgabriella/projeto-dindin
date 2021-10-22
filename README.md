@@ -63,8 +63,7 @@ Endpoint para obter um único Curso pelo seu ID
   "titulo": "Curso",
   "capa": "https/www.sou-img.com",
   "nomeProfessor": "Nome do Professor",
-  "descricao": "Alguma descrição",
-  "cursoID": 20
+  "descricao": "Alguma descrição"  
 }
 ```
 	
@@ -85,7 +84,8 @@ Endpoint para listar todas as aulas referente ao ID de um curso
   {
     "titulo": "Aula Um",
     "link": "https/www.sou-um-link.com",
-    "descricao": "descricao"
+    "descricao": "descricao",
+    "cursoID": 20
   },
   {
     "titulo": "Aula Dois",
@@ -117,7 +117,7 @@ Endpoint para cadastrar um novo Curso
     {
     "titulo": "Aula Um",
     "link": "https/www.sou-um-link.com-01",
-	  "descricao": "descricao"
+    "descricao": "descricao"
   },
   {
     "titulo": "Aula Dois",
