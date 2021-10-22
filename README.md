@@ -63,7 +63,8 @@ Endpoint para obter um único Curso pelo seu ID
   "titulo": "Curso",
   "capa": "https/www.sou-img.com",
   "nomeProfessor": "Nome do Professor",
-  "descricao": "Alguma descrição"
+  "descricao": "Alguma descrição",
+  "cursoID": 20
 }
 ```
 	
@@ -89,7 +90,8 @@ Endpoint para listar todas as aulas referente ao ID de um curso
   {
     "titulo": "Aula Dois",
     "link": "https/www.sou-um-link.com",
-    "descricao": "descricao"
+    "descricao": "descricao",
+    "cursoID": 20
   }
 ]
 ```
@@ -192,6 +194,6 @@ Códigos Http de Retorno Possíveis:
 
 ```
 
-## 🦸 By Scarlet gabriella
+## 🦸 By Scarlet Gabriella
 
 ```
