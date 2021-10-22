@@ -3,7 +3,7 @@
   
 ## 💻 Sobre o projeto
 
-Dindin = Regra de Negócio / Repositório
+Dindin.Dominio = Regra de Negócio / Repositório
 
 Dindin.Web = Api REST
 
