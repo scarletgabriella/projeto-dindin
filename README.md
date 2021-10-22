@@ -3,6 +3,8 @@
   
 ## 💻 Sobre o projeto
 
+CRUD Cursos e aulas.
+	
 Dindin.Dominio = Regra de Negócio / Repositório
 
 Dindin.Web = Api REST
