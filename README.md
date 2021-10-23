@@ -3,7 +3,7 @@
   
 ## 💻 Sobre o projeto
 
-CRUD de Cursos e aulas.
+CRUD de Cursos e Aulas.
 	
 Dindin.Dominio = Regra de Negócio / Repositório
 
@@ -13,7 +13,7 @@ Dindin.Web = Api REST
  
 Solução: backend.sln	
 	
-backend/Dindin.Dominio/DAO/ConexaoMysql.cs.cs
+backend/Dindin.Dominio/DAO/ConexaoMysql.cs
 	
 Atribui os valores na string connectionString:
 	
