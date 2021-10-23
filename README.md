@@ -32,15 +32,17 @@ Endpoint para listagem de todos os cursos cadastrados.
     "id": 1,
     "titulo": "Curso",
     "capa": "https/www.sou-img.com",
-    "nomeProfessor": "Nome do Professor",
-    "descricao": "Alguma descrição"
+    "nome_professor": "Nome do Professor",
+    "descricao": "Alguma descrição",
+    "aulas": []	
   },
   {
     "id": 2,
     "titulo": "Curso Dois",
     "capa": "https/www.sou-img.com",
-    "nomeProfessor": "Nome do Professor",
-    "descricao": "Alguma descrição"
+    "nome_professor": "Nome do Professor",
+    "descricao": "Alguma descrição",
+    "aulas": []
   }
 ]
 ```
@@ -53,7 +55,7 @@ Códigos Http de Retorno Possíveis:
 	
 ### 2. GET /api/Curso/{id}
 
-Endpoint para obter um único Curso pelo seu ID
+Endpoint para obter um único curso pelo seu ID
 
 #### Exemplo Retorno:
 
@@ -62,8 +64,9 @@ Endpoint para obter um único Curso pelo seu ID
   "id": 1,
   "titulo": "Curso",
   "capa": "https/www.sou-img.com",
-  "nomeProfessor": "Nome do Professor",
-  "descricao": "Alguma descrição"  
+  "nome_professor": "Nome do Professor",
+  "descricao": "Alguma descrição",
+  "aulas": []
 }
 ```
 	
@@ -77,7 +80,7 @@ Códigos Http de Retorno Possíveis:
 
 Endpoint para listar todas as aulas referente ao ID de um curso
 
-#### Exemplo Body:
+#### Exemplo Retorno:
 
 ```
 [
@@ -103,7 +106,7 @@ Códigos Http de Retorno Possíveis:
 
 ### 4. POST /api/Curso
 
-Endpoint para cadastrar um novo Curso
+Endpoint para cadastrar um novo curso e aulas
 
 #### Exemplo Body:
 
@@ -111,20 +114,20 @@ Endpoint para cadastrar um novo Curso
 {
   "titulo": "Curso",
   "capa": "https/www.sou-img.com",
-  "nomeProfessor": "Nome do Professor",
+  "nome_professor": "Nome do Professor",
   "descricao": "Alguma descrição",
   "Aulas": [
     {
     "titulo": "Aula Um",
     "link": "https/www.sou-um-link.com-01",
     "descricao": "descricao"
-  },
-  {
+     },
+     {
     "titulo": "Aula Dois",
     "link": "https/www.sou-um-link.com-02",
     "descricao": "descricao"
-  }
-    ]
+    }
+  ]
 }
 ```
 
@@ -135,7 +138,7 @@ Códigos Http de Retorno Possíveis:
 
 ### 6. PUT /api/Curso/{id}
 
-Endpoint para atualizar um Curso
+Endpoint para atualizar um curso
 
 #### Exemplo Body:
 
@@ -143,7 +146,7 @@ Endpoint para atualizar um Curso
 {
   "titulo": "Curso",
   "capa": "https/www.sou-img.com.uuu",
-  "nomeProfessor": "Nome do Professor",
+  "nome_professor": "Nome do Professor",
   "descricao": "Alguma descrição"
 }
 ```
@@ -153,20 +156,19 @@ Códigos Http de Retorno Possíveis:
 - 200 - OK
 - 404 - NOT FOUND
 
-### 7. PUT /api/Curso/AulaDoCurso?titulo=Primeiro-Curso&tituloAula=Primeira-Aula
+### 7. PUT /api/Curso/AulaDoCurso?id=Value&tituloAula=Primeira-Aula
 
-Endpoint para atualizar uma Aula
+Endpoint para atualizar uma aula
 
 #### Exemplo Body:
 
 ```
-{
  {
     "titulo": "Update Aula",
     "link": "https/www.sou-um-link.com",
     "descricao": "descricao"
   }
-}
+	
 ```
 
 Códigos Http de Retorno Possíveis:
@@ -176,7 +178,7 @@ Códigos Http de Retorno Possíveis:
 
 ### 8. DELETE /api/Curso/{id}
 
-Endpoint para excluir um Curso e as aulas referentes
+Endpoint para excluir um curso e as aulas referentes
 
 Códigos Http de Retorno Possíveis:
 
